@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+
+/* Pad out the container. */
+body {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Alternate version of Bootstrap's dl-horizontal */
+.dl-horizontal-alt dt {
+  float: left;
+  clear: left;
+  width: 150px;
+  text-align: left;
+  font-weight: normal;
+}
+.dl-horizontal-alt dd {
+  margin-left: 160px;
+}
+.dl-muted dd {
+  color: #999999;
+  font-size: 75%;
+}
+
+/*
+h1 {
+  font-family: "Bitter";
+  font-weight: bold;
+}
+  */
+
+/* Change the font to Myriad Pro. */
+body, html, p,
+  input,
+  button,
+  select,
+  textarea {
+  font-family: "Myriad Pro", "Droid Sans", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Except for Bootstrap buttons, where it looks weird. */
+.btn {
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Some classes to adjust font size. */
+.huge {
+  font-size: 30px;
+}
+.tiny {
+  font-size: 9px;
+}
+
+/* J& */
+.jet {
+  font-style: italic;
+  font-family: "Palatino", "Droid Sans", "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Some classes to adjust style. */
+.justify {
+  text-align: justify;
+}
+
+.with-button-row dl {
+  margin-bottom: 5px; /* not 18px */
+}
+div.with-button-row {
+  margin-bottom: 18px;
+}

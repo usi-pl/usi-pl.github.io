@@ -1,0 +1,24 @@
+dl {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+
+dl.biblio {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+dl.biblio dt,
+dl.biblio dd {
+  line-height: 20px;
+}
+
+dl.biblio dt {
+  font-weight: normal;
+}
+
+dd {
+  margin-left: 10px;
+}
+

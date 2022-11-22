@@ -1,0 +1,85 @@
+html, body {
+  background-color: #eee;
+}
+body {
+  padding-top: 40px; 
+}
+
+/* The white background content wrapper */
+.container > .content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+.nosection {
+  padding-top: 0px;
+}
+section {
+  padding-top: 60px;
+}
+.section-header {
+  margin-bottom: 17px;
+  border-bottom: 1px solid #DDD;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+ul.no-bottom-pad, ol.no-bottom-pad {
+  margin-bottom: 0;
+}
+ul.pad-items li:last-child {
+  margin-bottom: 4px;
+}
+ul.pad-items li {
+  margin-bottom: 4px;
+}
+
+dl.biblio {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+
+dl.biblio {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.cdf{
+  width: 12px;
+}
+dl.biblio dt,
+dl.biblio dd {
+  line-height: 20px;
+}
+
+dl.biblio dt {
+  font-weight: normal;
+}
+
+dl.biblio dd {
+  font-size: smaller;
+  margin-left: 10px;
+}
+
+.alert-gray {
+  color: #333;
+  background-color: #eeeeee;
+  border-color: #e7e7e7;
+}
+
+.alert-gray h4 {
+  color: #333;
+}
+

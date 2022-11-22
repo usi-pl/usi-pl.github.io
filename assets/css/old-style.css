@@ -1,0 +1,429 @@
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, object, a, em, img, strong, sub, sup, dd, dl, dt, li, ol, ul, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+html {
+  font-size:100.1%/*WinIE6- text resize adjust*/
+}
+
+body {
+  font-family: "Myriad Pro", "Gill Sans", "Helvetica Neue", "Gill Sans", Futura, "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #505050;
+  background-color: #ffffff;
+  font-size: medium;
+  text-align: center; /* center on ie */
+}
+
+img {
+  display: block;
+}
+
+a img, :link img, :visited img {
+  border: 0;
+}
+
+#wrapper {
+  width: 901px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+}
+#top {
+  float: left;
+  clear: right;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  min-height: 4em;
+}
+#left {
+  float: left;
+  width: 220px;
+  position: relative;
+  margin-right: 0px;
+}
+#left p {
+  padding-right: .5em;
+}
+.first {
+  margin-top: 0px;
+}
+#content {
+  float: left;
+  clear: right;
+  width: 650px;
+  border-left: 1px solid #FFC973;
+  margin-left: 20px;
+  padding-left: 10px;
+  position: relative;
+  left: 0%;
+}
+#widecontent {
+  float: left;
+  clear: right;
+  width: 870px;
+  border-left: 0px solid #FFC973;
+  margin-left: 20px;
+  padding-left: 10px;
+  position: relative;
+  left: 0%;
+}
+.thin {
+  width: 480px;
+}
+
+
+///////////////////////////////////////////////////////////////
+// Lists
+//////////////////////////////////////////////////////////////
+dl {
+        list-style-type: none;
+	margin-bottom: 1em;
+}
+dt {
+        font-weight: 700;
+	width: 100%;
+	padding-bottom: .25em;
+}
+ol.enumerate {
+	margin-left: 17px;
+}
+ol.enumerate li {
+	width: 100%;
+        margin-bottom: 0px;
+	// padding-bottom: .1em;
+}
+
+ul.itemize {
+        list-style-type: none;
+	margin-bottom: 1em;
+}
+ul.itemize li:before {
+        content: "\00BB \0020";
+}
+ul.itemize li {
+	width: 100%;
+	padding-bottom: .25em;
+}
+ol {
+        padding: 0px;
+        margin: 0px;
+}
+ul {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+}
+li {
+        margin: 0px;
+        padding: 0px;
+}
+
+////////////////////////////
+// Headings
+////////////////////////////
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: "Myriad Pro", "Gill Sans", "Helvetica Neue", "Gill Sans", Futura, "Lucida Grande", Helvetica, Arial, sans-serif;
+        width: 100%;
+        font-variant: normal;
+        text-transform: none;
+        display: block;
+}
+h1, h2 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        letter-spacing: 0px;
+        font-size: larger;
+	font-weight: normal;
+        font-style: normal;
+}
+h3, h4, h5, h6 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+	font-weight: lighter;
+}
+h1 {
+        color: #0E53A7;
+        text-transform: uppercase;
+}
+h2 {
+        color: #BF8830;
+}
+h3 {
+        color: #0E53A7;
+        font-style: italic;
+}
+h4 {
+        color: #505050;
+}
+h5 {
+        color: #505050;
+}
+h6 {
+        color: #505050;
+}
+
+pre, code, kbd, samp, tt, var {
+        font-family: Menlo, "Andale Mono", Monaco, Consolas, monospace;
+        font-weight: lighter;
+}
+code {
+        font-family: Menlo, "Andale Mono", Monaco, Consolas, monospace;
+        padding: 0px 0px;
+        color: #505050;
+        background-color: #ffffff;
+        border-width: 0
+}
+.code {
+        background-color: #f0f0f0;
+        color: #505050;
+}
+.inlinecode {
+}        
+pre {
+        line-height: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 1em;
+}        
+a {
+        color: #6899D3;
+        text-decoration: none;
+}
+a:hover {
+        color: #BF8830;
+        text-decoration: underline;
+}
+#content h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        display: block;
+}
+
+#headshot img {
+	height: 200px;
+}
+#headshot {
+        margin-left: 0px;
+        margin-bottom: 5px;
+        overflow: hidden;
+	float: left;
+	clear: right;
+	width: 100%;
+}
+.keyfield {
+        font-weight: lighter;
+	font-style: italic;
+}
+.term {
+        font-weight: normal;
+        font-weight: lighter;
+	font-style: italic;
+}
+#name h2 {
+        margin: 0px;
+        text-transform: uppercase;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        padding: 0;
+	padding-bottom: 2px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 1em;
+        line-height: 1.5em;
+}
+.single {
+        line-height: 1.0em;
+}
+#name p {
+        line-height: 1.0em;
+}
+#coordinates p {
+        line-height: 1.0em;
+}
+#name p {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        color: #505050;
+        font-weight: lighter;
+        font-style: italic;
+}
+#name h1 {
+        font-size: medium;
+	font-family: "Myriad Pro", "Gill Sans", "Helvetica Neue", "Gill Sans", Futura, "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+        color: #0E53A7;
+        border-width: 0;
+	text-transform: uppercase;
+}
+
+
+#disclaimer p, #biblio p {
+        text-align: justify;
+}
+
+#biblio {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+}
+#biblio h3 {
+        padding-bottom: 0px;
+}
+
+p.bib {
+        margin-left: 20px;
+        margin-top: 0px;
+}
+
+#coordinates {
+	width: 100%;
+
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+        margin-left: 0px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+#name {
+	width: 100%;
+
+	margin-bottom: 2em;
+	margin-top: 0px;
+	margin-right: 0px;
+        margin-left: 0px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+
+p.caption_left {
+        font-size: x-small;
+        margin-top: 0px;
+        text-align: left;
+}
+
+////////////////////////////////////////////////////
+// Tables
+/////////////////////////////////////////////////////
+
+#gen th {
+        font-size: small;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #505050;
+        font-weight: lighter;
+        vertical-align: bottom;
+}
+#gen th {
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #cccccc;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+}
+#gen th.left {
+        border-left-width: 0px;
+        border-left-style: solid;
+        border-left-color: #cccccc;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+}
+#gen td {
+        vertical-align: top;
+}
+#gen td {
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #cccccc;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #cccccc;
+}
+#gen td.left {
+        border-left-width: 0px;
+        border-left-style: solid;
+        border-left-color: #cccccc;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #cccccc;
+}
+
+///////////////////////////////////////////////////////////////
+// Classes
+//////////////////////////////////////////////////////////////
+
+.italic {
+        font-style: italic;
+}
+.justify {
+	text-align: justify;
+}
+.smallcaps {
+        font-variant: small-caps;
+        text-transform: lowercase;
+}
+.#ffffff {
+        color: #ffffff;
+}
+.lower {
+	text-transform: lowercase;
+}
+.upper {
+	text-transform: uppercase;
+}
+.light {
+	font-weight: lighter;
+}
+
+.jet {
+  font-family: palatino;
+  font-style: italic;
+}
+abbr, acronym { font-style: normal; cursor: help; }
+em { font-style: italic; }
+sup { vertical-align: super; font-size: x-small; }
+strong { font-weight: 700; }
+del { text-decoration: line-through; color: #505050; }
+
+cite {
+        font-family: "Myriad Pro", "Gill Sans", "Helvetica Neue", "Gill Sans", Futura, "Lucida Grande", Helvetica, Arial, sans-serif;
+}
